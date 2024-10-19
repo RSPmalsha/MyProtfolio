@@ -1,0 +1,50 @@
+#footer {
+    width: 100%; /* Full width of the viewport */
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-top: 4px solid yellow; /* Yellow border at the top of the footer */
+    position: relative;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footerLinks {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1.5rem; /* Space between icons */
+  }
+  
+  .footerLinks a {
+    color: yellow; /* Set icon color to yellow */
+    text-decoration: none;
+    font-size: 1.5rem; /* Increase icon size */
+    transition: color 0.3s;
+  }
+  
+  .footerLinks a:hover {
+    color: #ffc107; /* Slightly darker yellow on hover */
+  }
+  
+  .footerText {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    color: #aaa; /* Slightly lighter color for the text */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footerLinks a {
+      font-size: 1.25rem; /* Slightly smaller icons for mobile */
+    }
+  
+    .footerText {
+      font-size: 0.75rem;
+    }
+  }
+  

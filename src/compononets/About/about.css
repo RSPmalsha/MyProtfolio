@@ -1,0 +1,67 @@
+#about {
+    height: calc(80vh - 4rem); /* Adjusted height for the About section */
+    width: 100%;
+    max-width: 75rem;
+    margin: 2rem auto; /* Added margin to create space between sections */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    padding: 3rem; /* Optional: Add padding to prevent content from touching the border */
+  }
+  
+  .aboutContent {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .aboutImage {
+    flex: 1;
+    max-width: 40%; /* Set a medium image size */
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-right: -5%; /* Adjust margin for spacing */
+  }
+  
+  .aboutTitle {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .aboutText {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .aboutImage {
+      right: -10vw;
+      max-width: 50%; /* Increase image size slightly for smaller screens */
+    }
+  
+    .aboutContent {
+      font-size: 8vw;
+    }
+  
+    .aboutTitle {
+      font-size: 4.5vw;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .aboutImage {
+      right: -20vw;
+      max-width: 60%; /* Adjust image size for very small screens */
+    }
+  }
+  

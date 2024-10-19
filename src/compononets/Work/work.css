@@ -1,0 +1,68 @@
+/* Center the Work Section on the Page */
+.work_list {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work_header {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+/* Adjust the container to center its contents */
+.work_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center; /* Centers the grid horizontally */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    max-width: 1200px; /* Limit the container width */
+    margin: 0 auto; /* Centers the container itself */
+}
+
+.work {
+    background: #232324;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 10px 0;
+    max-width: 90%;
+    height: 500px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.work_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.work_content h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+}
+
+.work_link {
+    display: flex;
+    gap: 20px;
+}
+
+.work_list a {
+    font-size: 34px;
+    color: #5afad2;
+}
+
+.work_image {
+    overflow: hidden;
+}
+
+.work_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
